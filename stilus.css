@@ -1,0 +1,14 @@
+main {
+    width: 600px;
+}
+article {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px;
+}
+article div {
+    background: red;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
